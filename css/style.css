@@ -85,7 +85,7 @@ i.fa {
 }
 .app__body-inner {
     width: 100%;
-    min-width: 375px;
+    max-width: 375px;
     margin: 0 auto;
     color: #fff;
     display: flex;
@@ -108,9 +108,10 @@ i.fa {
 }
 .app__card {
     background-color:rgba(0, 0, 0, 0.5);
-    padding: 20px 10px;
+    padding: 10px 10px;
     border: 5px solid rgba(1,88,154,0.5);
     text-align: center;
+    background-size: cover;
 }
 .app__card:nth-child(1){
     border-right: none;
@@ -141,7 +142,7 @@ i.fa {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 0px 10px;
     border: 5px solid rgba(1,88,154,0.5);
     background-color: rgba(25,121,211,0.8);
     margin-bottom: 7px;
@@ -171,7 +172,6 @@ i.fa-star {
 }
 .app.results {
     animation: none;
-    background-size: cover;
     background-position: center center;
 }
 .app.results[data-race='zerg'] {
@@ -231,7 +231,7 @@ i.fa-star {
     margin-bottom: 20px;
 }
 .results__img img {
-    width: 250px;
+    width: 200px;
 }
 .results-text-box {
     margin-bottom: 20px;
